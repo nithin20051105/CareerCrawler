@@ -1,0 +1,157 @@
+export const COMPANIES = [
+  'Stripe', 'Google', 'Amazon', 'Flipkart', 'Razorpay',
+  'Microsoft', 'Swiggy', 'Zepto', 'Atlassian', 'Notion',
+  'Coinbase', 'Postman',
+];
+
+export const JOBS = [
+  {
+    id: 1,
+    title: 'Software Engineer — Distributed Systems',
+    company: 'Stripe',
+    location: 'Bangalore',
+    experience: '2+ years',
+    skills: ['Java', 'Distributed', 'Kafka'],
+    scrapedAt: '2h ago',
+    jobLink: 'https://stripe.com/jobs',
+    color: { bg: 'rgba(124,58,237,0.2)', text: '#A78BFA', letter: 'S' },
+    tagColors: [
+      { bg: 'rgba(124,58,237,0.15)', text: '#A78BFA' },
+      { bg: 'rgba(6,182,212,0.12)',  text: '#67E8F9' },
+      { bg: 'rgba(52,211,153,0.10)', text: '#6EE7B7' },
+    ],
+  },
+  {
+    id: 2,
+    title: 'Backend Engineer — Infrastructure',
+    company: 'Google',
+    location: 'Hyderabad',
+    experience: '3+ years',
+    skills: ['Go', 'Kubernetes', 'GCP'],
+    scrapedAt: '4h ago',
+    jobLink: 'https://careers.google.com',
+    color: { bg: 'rgba(6,182,212,0.15)', text: '#67E8F9', letter: 'G' },
+    tagColors: [
+      { bg: 'rgba(6,182,212,0.12)',  text: '#67E8F9' },
+      { bg: 'rgba(52,211,153,0.10)', text: '#6EE7B7' },
+      { bg: 'rgba(124,58,237,0.15)', text: '#A78BFA' },
+    ],
+  },
+  {
+    id: 3,
+    title: 'Full Stack Developer',
+    company: 'Razorpay',
+    location: 'Remote',
+    experience: '1+ years',
+    skills: ['React', 'Node.js', 'MongoDB'],
+    scrapedAt: '5h ago',
+    jobLink: 'https://razorpay.com/jobs',
+    color: { bg: 'rgba(245,158,11,0.15)', text: '#FCD34D', letter: 'R' },
+    tagColors: [
+      { bg: 'rgba(245,158,11,0.12)', text: '#FCD34D' },
+      { bg: 'rgba(124,58,237,0.15)', text: '#A78BFA' },
+      { bg: 'rgba(6,182,212,0.12)',  text: '#67E8F9' },
+    ],
+  },
+  {
+    id: 4,
+    title: 'Data Engineer — ML Platform',
+    company: 'Flipkart',
+    location: 'Bangalore',
+    experience: '2+ years',
+    skills: ['Python', 'Spark', 'Airflow'],
+    scrapedAt: '1h ago',
+    jobLink: 'https://flipkartcareers.com',
+    color: { bg: 'rgba(52,211,153,0.15)', text: '#6EE7B7', letter: 'F' },
+    tagColors: [
+      { bg: 'rgba(52,211,153,0.10)', text: '#6EE7B7' },
+      { bg: 'rgba(6,182,212,0.12)',  text: '#67E8F9' },
+      { bg: 'rgba(245,158,11,0.12)', text: '#FCD34D' },
+    ],
+  },
+  {
+    id: 5,
+    title: 'SDE-2 — Payments Infrastructure',
+    company: 'Amazon',
+    location: 'Bangalore',
+    experience: '3-5 years',
+    skills: ['Java', 'AWS', 'DynamoDB'],
+    scrapedAt: '6h ago',
+    jobLink: 'https://amazon.jobs',
+    color: { bg: 'rgba(244,114,182,0.15)', text: '#F9A8D4', letter: 'A' },
+    tagColors: [
+      { bg: 'rgba(124,58,237,0.15)', text: '#A78BFA' },
+      { bg: 'rgba(245,158,11,0.12)', text: '#FCD34D' },
+      { bg: 'rgba(52,211,153,0.10)', text: '#6EE7B7' },
+    ],
+  },
+  {
+    id: 6,
+    title: 'Frontend Engineer — Product',
+    company: 'Notion',
+    location: 'Remote',
+    experience: '2+ years',
+    skills: ['TypeScript', 'React', 'GraphQL'],
+    scrapedAt: '3h ago',
+    jobLink: 'https://notion.so/jobs',
+    color: { bg: 'rgba(6,182,212,0.15)', text: '#67E8F9', letter: 'N' },
+    tagColors: [
+      { bg: 'rgba(245,158,11,0.12)', text: '#FCD34D' },
+      { bg: 'rgba(6,182,212,0.12)',  text: '#67E8F9' },
+      { bg: 'rgba(124,58,237,0.15)', text: '#A78BFA' },
+    ],
+  },
+  {
+    id: 7,
+    title: 'DevOps Engineer — Platform',
+    company: 'Swiggy',
+    location: 'Bangalore',
+    experience: '2+ years',
+    skills: ['Docker', 'Terraform', 'AWS'],
+    scrapedAt: '2h ago',
+    jobLink: 'https://careers.swiggy.com',
+    color: { bg: 'rgba(245,158,11,0.15)', text: '#FCD34D', letter: 'Sw' },
+    tagColors: [
+      { bg: 'rgba(6,182,212,0.12)',  text: '#67E8F9' },
+      { bg: 'rgba(52,211,153,0.10)', text: '#6EE7B7' },
+      { bg: 'rgba(245,158,11,0.12)', text: '#FCD34D' },
+    ],
+  },
+  {
+    id: 8,
+    title: 'ML Engineer — Recommendations',
+    company: 'Zepto',
+    location: 'Mumbai',
+    experience: '1-3 years',
+    skills: ['Python', 'PyTorch', 'MLflow'],
+    scrapedAt: '1h ago',
+    jobLink: 'https://zeptocareers.com',
+    color: { bg: 'rgba(244,114,182,0.15)', text: '#F9A8D4', letter: 'Z' },
+    tagColors: [
+      { bg: 'rgba(52,211,153,0.10)', text: '#6EE7B7' },
+      { bg: 'rgba(124,58,237,0.15)', text: '#A78BFA' },
+      { bg: 'rgba(6,182,212,0.12)',  text: '#67E8F9' },
+    ],
+  },
+];
+
+export const CATEGORIES = ['All', 'Backend', 'Frontend', 'Data', 'DevOps', 'ML / AI', 'Product'];
+export const LOCATIONS  = ['All Locations', 'Bangalore', 'Hyderabad', 'Remote', 'Mumbai'];
+export const EXPERIENCE = ['Experience: All', '0-1 years', '1-3 years', '3-5 years', '5+ years'];
+export const QUICK_TAGS = ['Backend Engineer', 'Frontend', 'Product Manager', 'Data Science', 'DevOps', 'Bangalore', 'Remote'];
+
+export const ROLE_SUGGESTIONS = [
+  ...new Set([
+    ...QUICK_TAGS.filter((tag) => !LOCATIONS.includes(tag)),
+    ...JOBS.map((job) => job.title),
+    ...JOBS.flatMap((job) => job.skills),
+    'Software Engineer',
+    'Backend Engineer',
+    'Frontend Engineer',
+    'Full Stack Engineer',
+    'Data Engineer',
+    'Machine Learning Engineer',
+    'DevOps Engineer',
+    'Product Manager',
+  ]),
+];
